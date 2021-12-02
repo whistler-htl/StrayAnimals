@@ -76,7 +76,7 @@ public class AuthServiceImpl implements IAuthService {
 
        try {
            SimpleMailMessage message = new SimpleMailMessage() ;
-           message.setFrom("tuojihu@qq.com");  // 你自己的邮箱地址
+           message.setFrom("1194664161@qq.com");  // 你自己的邮箱地址
            message.setTo(email); //接受者的邮箱
            message.setSubject("重置密码 【SHIEP】流浪动物救助平台");
            message.setText("您重置后的新密码是：" + "【" + newPwd + "】");

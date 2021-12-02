@@ -8,7 +8,7 @@ spring:   # 表示该配置直接由Spring容器进行负责处理
     driver-class-name: org.gjt.mm.mysql.Driver      # 配置MySQL驱动程序
     url: jdbc:mysql://localhost:3306/sa?useUnicode=true&amp;characterEncoding=utf-8   # 连接地址
     username: root     # 配置数据库用户名
-    password: mysqladmin    # 数据库连接密码
+    password: 123456    # 数据库连接密码
     dbcp2:
       min-idle: 5       # 数据库连接池的最小维持连接数
       initial-size: 5   # 初始化提供的连接数
@@ -17,8 +17,8 @@ spring:   # 表示该配置直接由Spring容器进行负责处理
       # 邮件服务
   mail:
     host: smtp.qq.com   # 腾讯服务器
-    username: tuojihu@qq.com    # 邮箱名称
-    password: umgbguaujfsqhbfc    # 开启POP3服务后生产的密码
+    username: 1194664161@qq.com    # 邮箱名称
+    password: tuhshdegrpfsfeda    # 开启POP3服务后生产的密码
     properties:
       mail.smtp.auth: true
       mail.smtp.starttls.ebable: true

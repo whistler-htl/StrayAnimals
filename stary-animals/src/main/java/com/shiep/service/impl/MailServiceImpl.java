@@ -42,7 +42,7 @@ public class MailServiceImpl implements IMailService {
         }
         /*try {*/
             SimpleMailMessage message = new SimpleMailMessage() ;
-            message.setFrom("tuojihu@qq.com");  // 你自己的邮箱地址
+            message.setFrom("1194664161@qq.com");  // 你自己的邮箱地址
             message.setTo(mailAddress); //接受者的邮箱
             message.setSubject("欢迎注册【SHIEP】流浪动物救助平台");
             message.setText("您的注册验证码是：" + "【" + code + "】, " + "验证码的有效时间为60秒！");

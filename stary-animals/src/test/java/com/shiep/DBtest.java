@@ -132,7 +132,7 @@ public class DBtest {
     public void TestSendMail() {
         SimpleMailMessage message = new SimpleMailMessage() ;
         message.setFrom("1194664161@qq.com");  // 你自己的邮箱地址
-        message.setTo("676698190@qq.com"); //接受者的邮箱
+        message.setTo("2635749995@qq.com"); //接受者的邮箱
         message.setSubject("测试邮件，来自伦伦的祝福.");
         message.setText("好好学习，天天向上！");
         this.javaMailSender.send(message);
@@ -142,7 +142,7 @@ public class DBtest {
     private IMailService mailService;
     @Test
     public void testMail() {
-        Boolean aBoolean = this.mailService.sendMailAndGenerateCode("676698190@qq.com");
+        Boolean aBoolean = this.mailService.sendMailAndGenerateCode("2635749995@qq.com");
         System.out.println(aBoolean) ;
     }
 
